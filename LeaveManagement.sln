@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagement", "LeaveManagement\LeaveManagement.csproj", "{26E068D5-0297-414B-978E-0F6C80D40A1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagement.Entity", "LeaveManagement.Entity\LeaveManagement.Entity.csproj", "{D999153F-A995-4F30-A255-BB5D85CDCC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagement.Services", "LeaveManagement.Services\LeaveManagement.Services.csproj", "{D2608EE4-A5B4-4EF0-AD27-DDAEC7B8679A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{26E068D5-0297-414B-978E-0F6C80D40A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26E068D5-0297-414B-978E-0F6C80D40A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26E068D5-0297-414B-978E-0F6C80D40A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D999153F-A995-4F30-A255-BB5D85CDCC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D999153F-A995-4F30-A255-BB5D85CDCC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D999153F-A995-4F30-A255-BB5D85CDCC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D999153F-A995-4F30-A255-BB5D85CDCC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2608EE4-A5B4-4EF0-AD27-DDAEC7B8679A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2608EE4-A5B4-4EF0-AD27-DDAEC7B8679A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2608EE4-A5B4-4EF0-AD27-DDAEC7B8679A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2608EE4-A5B4-4EF0-AD27-DDAEC7B8679A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
