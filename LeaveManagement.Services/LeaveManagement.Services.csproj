@@ -43,6 +43,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Implements\CompanyService.cs" />
     <Compile Include="Interfaces\ICompanyService.cs" />
+    <Compile Include="Interfaces\IServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

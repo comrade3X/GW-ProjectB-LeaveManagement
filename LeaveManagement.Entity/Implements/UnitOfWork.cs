@@ -10,18 +10,15 @@ namespace LeaveManagement.Entity.Implements
 
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly IDbFactory dbFactory;
-        private LeaveManagementEntities dbEntities;
+        private readonly IDbFactory _dbFactory;
+        private LeaveManagementEntities _dbEntities;
 
         public UnitOfWork(IDbFactory dbFactory)
         {
-            this.dbFactory = dbFactory;
+            _dbFactory = dbFactory;
         }
 
-        public LeaveManagementEntities DbEntities
-        {
-            get { return dbEntities ?? (dbEntities = dbFactory.Init()); }
-        }
+        public LeaveManagementEntities DbEntities => _dbEntities ?? (_dbEntities = _dbFactory.Init());
 
         public void Comit()
         {

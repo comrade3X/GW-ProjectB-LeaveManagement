@@ -13,17 +13,23 @@ namespace LeaveManagement.Controllers
 
     public class HomeController : Controller
     {
-        private readonly ICompanyService companyService;
+        private readonly ICompanyService _companyService;
 
         public HomeController(ICompanyService companyService)
         {
-            this.companyService = companyService;
+            _companyService = companyService;
         }
 
         public ActionResult Index()
         {
-            var companies = companyService.GetAllCompanies();
-            var companiesViewModel = Mapper.Map<IEnumerable<Company>, IEnumerable<CompanyViewModel>>(companies);
+            var companies = _companyService.GetAll();
+            var model = new Company
+            {
+                Name = "Test 123456",
+                Contact = "Tiendu g"
+            };
+
+            _companyService.Add(model);
             return View();
         }
 

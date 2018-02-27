@@ -8,10 +8,8 @@ namespace LeaveManagement.Services.Interfaces
 {
     using Entity;
 
-    public interface ICompanyService
+    public interface ICompanyService : IServiceBase<Company>
     {
-        IEnumerable<Company> GetAllCompanies();
-
         void SaveCompany();
     }
 }
