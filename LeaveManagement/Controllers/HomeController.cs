@@ -22,14 +22,6 @@ namespace LeaveManagement.Controllers
 
         public ActionResult Index()
         {
-            var companies = _companyService.GetAll();
-            var model = new Company
-            {
-                Name = "Test 123456",
-                Contact = "Tiendu g"
-            };
-
-            _companyService.Add(model);
             return View();
         }
 

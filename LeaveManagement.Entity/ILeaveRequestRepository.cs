@@ -2,7 +2,7 @@
 
 namespace LeaveManagement.Entity
 {
-    public interface ICompanyRepository : IRepository<Company>
+    public interface ILeaveRequestRepository : IRepository<LeaveRequest>
     {
     }
 }

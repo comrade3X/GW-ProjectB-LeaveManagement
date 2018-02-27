@@ -41,7 +41,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Implements\EmployeeService.cs" />
+    <Compile Include="Implements\CompanyRoleService.cs" />
+    <Compile Include="Implements\EmployeeLaborService.cs" />
+    <Compile Include="Implements\EmployeeLeaveInformationService.cs" />
+    <Compile Include="Implements\LaborTypeService.cs" />
+    <Compile Include="Implements\LeaveTypeService.cs" />
+    <Compile Include="Implements\LeaveRequestService.cs" />
+    <Compile Include="Implements\LeaveRequestHistoryService.cs" />
     <Compile Include="Implements\CompanyService.cs" />
+    <Compile Include="Interfaces\IEmployeeService.cs" />
+    <Compile Include="Interfaces\IEmployeeLaborService.cs" />
+    <Compile Include="Interfaces\IEmployeeLeaveInformationService.cs" />
+    <Compile Include="Interfaces\ILaborTypeService.cs" />
+    <Compile Include="Interfaces\ILeaveRequestService.cs" />
+    <Compile Include="Interfaces\ILeaveRequestHistoryService.cs" />
+    <Compile Include="Interfaces\ILeaveTypeService.cs" />
+    <Compile Include="Interfaces\ICompanyRoleService.cs" />
     <Compile Include="Interfaces\ICompanyService.cs" />
     <Compile Include="Interfaces\IServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

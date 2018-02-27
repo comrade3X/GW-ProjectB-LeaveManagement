@@ -56,7 +56,23 @@
     <Compile Include="CompanyRole.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="LaborTypeRepository.cs" />
+    <Compile Include="LeaveRequestRepository.cs" />
+    <Compile Include="LeaveTypeRepository.cs" />
+    <Compile Include="LeaveRequestHistoryRepository.cs" />
+    <Compile Include="CompanyRoleRepository.cs" />
+    <Compile Include="EmployeeLeaveInformationRepository.cs" />
+    <Compile Include="EmployeeLaborRepository.cs" />
+    <Compile Include="EmployeeRepository..cs" />
     <Compile Include="CompayRepository.cs" />
+    <Compile Include="ILaborTypeRepository.cs" />
+    <Compile Include="ILeaveRequestRepository.cs" />
+    <Compile Include="ILeaveTypeRepository.cs" />
+    <Compile Include="ILeaveRequestHistoryRepository.cs" />
+    <Compile Include="IEmployeeLeaveInformationRepository.cs" />
+    <Compile Include="ICompanyRoleRepository.cs" />
+    <Compile Include="IEmployeeLaborRepository.cs" />
+    <Compile Include="IEmployeeRepository.cs" />
     <Compile Include="ICompanyRepository.cs" />
     <Compile Include="Implements\DbFactory.cs" />
     <Compile Include="Implements\Disposable.cs" />
@@ -130,6 +146,10 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Company\" />
+    <Folder Include="Employee\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

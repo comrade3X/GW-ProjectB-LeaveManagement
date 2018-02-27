@@ -12,6 +12,5 @@ namespace LeaveManagement.ViewModels
         public virtual string Name { get; set; }
 
         public virtual string Contact { get; set; }
-
     }
 }
